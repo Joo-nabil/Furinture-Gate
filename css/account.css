@@ -1,0 +1,36 @@
+.form-container {
+    background-color: #F5F5DC; /* Beige */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #A9A9A9; /* Dark Gray */
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #8B4513; /* Saddle Brown */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #6B8E23; /* Olive Drab */
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
