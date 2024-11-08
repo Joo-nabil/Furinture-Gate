@@ -58,7 +58,7 @@ document.getElementById('toggleButton').addEventListener('click', function() {
         // Switch to login
         signupFields.style.display = 'none';
         loginFields.style.display = 'block';
-        formTitle.textContent = 'Login to INWOOD';
+        formTitle.textContent = 'Login to Furniture Gate';
         submitButton.textContent = 'Login';
         document.getElementById('error-message').textContent = ''; // Clear error message
     } else {
