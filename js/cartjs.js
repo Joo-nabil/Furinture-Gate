@@ -19,7 +19,7 @@ function displayCart() {
       product.name
     }" width="50"></td>
             <td>${product.name}</td>
-            <td>$${product.price}</td>
+            <td>${product.price}</td>
             <td>
                 <input type="number" min="1" value="${
                   product.quantity

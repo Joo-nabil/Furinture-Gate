@@ -29,7 +29,7 @@ function displayProducts(products, studyrooms) {
           <div class="desc">
             <div class="info">
               <h6>${product.title}</h6>
-              <p class="price">$${product.price}</p>
+              <p class="price">${product.price}</p>
             </div>
             <button class="add-to-cart">
             <i class="fa-solid fa-cart-shopping"></i></button>
