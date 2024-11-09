@@ -231,8 +231,7 @@ nav .navbar-nav .nav-link {
 .intro .info .text {
   color: var(--primary-color);
 }
-.intro .info .text h2 {
-}
+
 @media (min-width: 992px) {
   .intro .info .text h2 {
     font-size: 55px;
@@ -277,10 +276,6 @@ nav .navbar-nav .nav-link {
   .popular-products .mySwiper-products {
     margin-left: 150px;
   }
-}
-
-.popular-products .swiper-wrapper {
-  /* height: 550px; */
 }
 .popular-products .product {
   padding: 10px;

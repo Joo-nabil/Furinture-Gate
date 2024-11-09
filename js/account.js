@@ -8,10 +8,16 @@ function handleAuth(event) {
 
     if (isSigningUp) {
         // Sign up logic
-        const usernameInput = document.getElementById('signupUsername').value;
-        const passwordInput = document.getElementById('signupPassword').value;
-        const signupMessage = document.getElementById('signup-message');
-
+        if(document.getElementById('signupUsername').value !== '') {
+        var usernameInput = document.getElementById('signupUsername').value;
+        var passwordInput = document.getElementById('signupPassword').value;
+        var signupMessage = document.getElementById('signup-message');
+        
+        }
+        else {
+            alert("Please enter a username.");
+           
+        }
         // Check if username already exists
         const existingUser = users.find(user => user.username === usernameInput);
 
