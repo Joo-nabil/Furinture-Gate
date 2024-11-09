@@ -60,6 +60,7 @@ document.getElementById('toggleButton').addEventListener('click', function() {
         loginFields.style.display = 'block';
         formTitle.textContent = 'Login to Furniture Gate';
         submitButton.textContent = 'Login';
+        toggleButton.textContent = "switch to signup";
         document.getElementById('error-message').textContent = ''; // Clear error message
     } else {
         // Switch to signup
@@ -67,6 +68,7 @@ document.getElementById('toggleButton').addEventListener('click', function() {
         signupFields.style.display = 'block';
         formTitle.textContent = 'Create an Account';
         submitButton.textContent = 'Sign Up';
+        toggleButton.textContent = "switch to login";
         document.getElementById('signup-message').textContent = ''; // Clear signup message
     }
 });
